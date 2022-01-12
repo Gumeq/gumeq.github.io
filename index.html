@@ -5,59 +5,124 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Document</title>
-		<link rel="stylesheet" href="./css/style.css" />
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link
-			href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap"
-			rel="stylesheet"
-		/>
+		<link rel="stylesheet" href="style.css" />
+		<link href="http://fonts.cdnfonts.com/css/rakesly" rel="stylesheet" />
 	</head>
 	<body>
-		<div class="container">
-			<div class="navbar">
-				<a href="./home.html"
-					><img src="./photos/logo.png" alt="Gumeq-Logo" id="logo"
-				/></a>
-				<ul>
-					<li>
-						<a href="./index.html"> Home</a>
-					</li>
-					<li>
-						<a href="./about.html">About</a>
-					</li>
-					<li>
-						<a href="./work.html">Work</a>
-					</li>
-				</ul>
-			</div>
-			<br />
-			<div class="main_content">
-				<div>
-					<h1>
-						Hi,<br />I am
-						<span id="gumeq">Gumeq</span>!<br />Designer & Developer
-					</h1>
-					<button
-						id="learn"
-						type="button"
-						onclick="location.href='./about.html';"
-					>
-						More about me
-					</button>
+		<div class="flex-container">
+			<div class="flex-item blue-bg">
+				<div class="main-text">
+					<h2 class="welcome">Hi, I'm Timothy</h2>
+					<h1 class="designer">Designer &</h1>
+					<h1 class="developer">Developer</h1>
+					<h3 class="description">
+						Passionate about designing and creating modern websites.
+					</h3>
 				</div>
-
-				<img
-					src="./photos/blob.png"
-					alt="blob"
-					id="blob"
-					class="updown"
-				/>
+			</div>
+			<img
+				src="./splash-photo.png"
+				alt="splash-photo"
+				class="flex-item photo middle-bg"
+			/>
+			<div class="flex-item pink-bg"></div>
+		</div>
+		<div class="wave-vis">
+			<svg
+				class="waves"
+				xmlns="http://www.w3.org/2000/svg"
+				xmlns:xlink="http://www.w3.org/1999/xlink"
+				viewBox="0 24 150 28"
+				preserveAspectRatio="none"
+				shape-rendering="auto"
+			>
+				<defs>
+					<path
+						id="gentle-wave"
+						d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"
+					/>
+				</defs>
+				<g class="parallax">
+					<use
+						xlink:href="#gentle-wave"
+						x="48"
+						y="0"
+						fill="rgba(255,255,255,0.7"
+					/>
+					<use
+						xlink:href="#gentle-wave"
+						x="48"
+						y="3"
+						fill="rgba(255,255,255,0.5)"
+					/>
+					<use
+						xlink:href="#gentle-wave"
+						x="48"
+						y="5"
+						fill="rgba(255,255,255,0.3)"
+					/>
+					<use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+				</g>
+			</svg>
+		</div>
+		<div class="empty-space"></div>
+		<div class="page-2">
+			<div class="fun-part">
+				<svg
+					class="blob-blue"
+					viewBox="0 0 500 500"
+					xmlns="http://www.w3.org/2000/svg"
+					xmlns:xlink="http://www.w3.org/1999/xlink"
+					width="100%"
+					id="blobSvg"
+				>
+					<path
+						id="blob"
+						d="M416.5,305Q360,360,305,421Q250,482,192,424Q134,366,87.5,308Q41,250,85,189.5Q129,129,189.5,102Q250,75,338,74.5Q426,74,449.5,162Q473,250,416.5,305Z"
+						fill="#87e8f1"
+					></path>
+				</svg>
+				<div class="fun-part-text">
+					<h2>The fun part.</h2>
+					<h4 class="part-desc">
+						I design modern yet fun websites. I like playing with
+						color, shapes and different styles while maintaining a
+						professional look.
+					</h4>
+				</div>
+			</div>
+			<div class="boring-part">
+				<svg
+					class="blob-pink"
+					viewBox="0 0 500 500"
+					xmlns="http://www.w3.org/2000/svg"
+					xmlns:xlink="http://www.w3.org/1999/xlink"
+					width="100%"
+					id="blobSvg"
+				>
+					<path
+						id="blob"
+						d="M449.5,326.5Q403,403,326.5,429Q250,455,177,425.5Q104,396,93.5,323Q83,250,84,167.5Q85,85,167.5,82.5Q250,80,309.5,105.5Q369,131,432.5,190.5Q496,250,449.5,326.5Z"
+						fill="#f18db1"
+					></path>
+				</svg>
+				<div class="boring-part-text">
+					<h2>The boring part.</h2>
+					<h4 class="part-desc">
+						I also love bringing my design to life, creating dynamic
+						websites for multiple devices with organized code (as
+						much as possible) and no bugs (hopefully).
+					</h4>
+				</div>
+			</div>
+			<div class="end-result">
+				<h2>The end result.</h2>
+				<h4 class="part-desc">
+					In conclusion, my websites are what people want.
+					Professional looking, easy to use, reliable applications
+					with a pinch of creativity.
+				</h4>
 			</div>
 		</div>
-
-		<script>
-			document.getElementById("learn");
-		</script>
 	</body>
 </html>
