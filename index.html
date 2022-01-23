@@ -4,125 +4,202 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Document</title>
+		<title>Timothy Dobras</title>
 		<link rel="stylesheet" href="style.css" />
-		<link href="http://fonts.cdnfonts.com/css/rakesly" rel="stylesheet" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+			rel="stylesheet"
+		/>
 	</head>
 	<body>
-		<div class="flex-container">
-			<div class="flex-item blue-bg">
-				<div class="main-text">
-					<h2 class="welcome">Hi, I'm Timothy</h2>
-					<h1 class="designer">Designer &</h1>
-					<h1 class="developer">Developer</h1>
-					<h3 class="description">
-						Passionate about designing and creating modern websites.
-					</h3>
+		<img src="./dots.png" alt="dots" class="dots" />
+		<div class="navbar">
+			<div class="container flex-container">
+				<a href="index.html" class="flex-item logo">TD.</a>
+				<a href="#about-me" class="flex-item nav-item">About Me</a>
+				<a href="#my-skills" class="flex-item nav-item">Skills</a>
+				<a href="#contact-me" class="flex-item nav-item">Contact</a>
+				<div class="dark-mode-switch">
+					<svg
+						width="80"
+						height="40"
+						viewBox="0 0 80 40"
+						fill="none"
+						xmlns="http://www.w3.org/2000/svg"
+					>
+						<rect width="80" height="40" rx="20" fill="black" />
+						<rect
+							width="80"
+							height="40"
+							rx="20"
+							fill="white"
+							fill-opacity="0.2"
+						/>
+						<path
+							d="M60.0005 16.25C57.934 16.25 56.2503 17.9336 56.2503 20C56.2503 22.0664 57.934 23.75 60.0005 23.75C62.067 23.75 63.7507 22.0664 63.7507 20C63.7507 17.9336 62.067 16.25 60.0005 16.25ZM69.626 19.3945L65.9266 17.5469L67.2352 13.625C67.411 13.0938 66.9071 12.5898 66.3797 12.7695L62.4576 14.0781L60.606 10.375C60.356 9.875 59.645 9.875 59.395 10.375L57.5472 14.0742L53.6213 12.7656C53.09 12.5898 52.5861 13.0937 52.7658 13.6211L54.0744 17.543L50.375 19.3945C49.875 19.6445 49.875 20.3555 50.375 20.6055L54.0744 22.4531L52.7658 26.3789C52.59 26.9102 53.0939 27.4141 53.6213 27.2344L57.5433 25.9258L59.3911 29.625C59.6411 30.125 60.3521 30.125 60.6021 29.625L62.4498 25.9258L66.3719 27.2344C66.9032 27.4102 67.4071 26.9062 67.2274 26.3789L65.9187 22.457L69.6181 20.6094C70.126 20.3555 70.126 19.6445 69.626 19.3945ZM63.5358 23.5352C61.5865 25.4844 58.4145 25.4844 56.4652 23.5352C54.5158 21.5859 54.5158 18.4141 56.4652 16.4648C58.4145 14.5156 61.5865 14.5156 63.5358 16.4648C65.4851 18.4141 65.4851 21.5859 63.5358 23.5352Z"
+							fill="#CCCCCC"
+							fill-opacity="0.5"
+						/>
+					</svg>
+					<svg
+						width="40"
+						height="40"
+						viewBox="0 0 40 40"
+						fill="none"
+						xmlns="http://www.w3.org/2000/svg"
+						id="active-switch"
+					>
+						<circle
+							cx="20"
+							cy="20"
+							r="20"
+							fill="white"
+							fill-opacity="0.9"
+						/>
+						<path
+							d="M21 30C24.0845 30 26.9015 28.5967 28.7679 26.2972C29.0439 25.957 28.7429 25.4601 28.3162 25.5413C23.4645 26.4653 19.0091 22.7454 19.0091 17.8478C19.0091 15.0266 20.5193 12.4324 22.9739 11.0355C23.3522 10.8202 23.2571 10.2466 22.8271 10.1672C22.2244 10.0561 21.6129 10.0001 21 10C15.4801 10 11 14.4731 11 20C11 25.5199 15.4731 30 21 30Z"
+							fill="#333333"
+						/>
+					</svg>
 				</div>
 			</div>
-			<img
-				src="./splash-photo.png"
-				alt="splash-photo"
-				class="flex-item photo middle-bg"
-			/>
-			<div class="flex-item pink-bg"></div>
 		</div>
-		<div class="wave-vis">
-			<svg
-				class="waves"
-				xmlns="http://www.w3.org/2000/svg"
-				xmlns:xlink="http://www.w3.org/1999/xlink"
-				viewBox="0 24 150 28"
-				preserveAspectRatio="none"
-				shape-rendering="auto"
-			>
-				<defs>
-					<path
-						id="gentle-wave"
-						d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"
-					/>
-				</defs>
-				<g class="parallax">
-					<use
-						xlink:href="#gentle-wave"
-						x="48"
-						y="0"
-						fill="rgba(255,255,255,0.7"
-					/>
-					<use
-						xlink:href="#gentle-wave"
-						x="48"
-						y="3"
-						fill="rgba(255,255,255,0.5)"
-					/>
-					<use
-						xlink:href="#gentle-wave"
-						x="48"
-						y="5"
-						fill="rgba(255,255,255,0.3)"
-					/>
-					<use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
-				</g>
-			</svg>
-		</div>
-		<div class="empty-space"></div>
-		<div class="page-2">
-			<div class="fun-part">
+		<div class="container">
+			<div class="purple-title">
+				<div class="main-title"><h1>I Create Websites</h1></div>
 				<svg
-					class="blob-blue"
-					viewBox="0 0 500 500"
+					width="30"
+					height="30"
+					viewBox="0 0 30 30"
+					fill="none"
 					xmlns="http://www.w3.org/2000/svg"
-					xmlns:xlink="http://www.w3.org/1999/xlink"
-					width="100%"
-					id="blobSvg"
+					class="orange-circle"
+				>
+					<circle
+						id="orange-ball"
+						cx="15"
+						cy="15"
+						r="15"
+						fill="#F0B05D"
+					/>
+				</svg>
+				<svg
+					width="258"
+					height="239"
+					viewBox="0 0 258 239"
+					fill="none"
+					xmlns="http://www.w3.org/2000/svg"
+					id="yellow-triangle"
 				>
 					<path
-						id="blob"
-						d="M416.5,305Q360,360,305,421Q250,482,192,424Q134,366,87.5,308Q41,250,85,189.5Q129,129,189.5,102Q250,75,338,74.5Q426,74,449.5,162Q473,250,416.5,305Z"
-						fill="#87e8f1"
-					></path>
+						d="M243.388 62.2545C255.816 38.6365 238.298 10.3567 211.617 10.9649L44.7514 14.7683C17.6876 15.3852 1.53957 45.1769 15.795 68.1902L104.935 212.094C119.19 235.107 153.056 233.918 165.662 209.961L243.388 62.2545Z"
+						fill="#191919"
+						stroke="#F0B05D"
+						stroke-width="20"
+					/>
 				</svg>
-				<div class="fun-part-text">
-					<h2>The fun part.</h2>
-					<h4 class="part-desc">
-						I design modern yet fun websites. I like playing with
-						color, shapes and different styles while maintaining a
-						professional look.
+			</div>
+			<div class="main-info">
+				<div class="orange-text">
+					<h3>I'm <span id="name">Timothy</span>,</h2>
+					<h4 class="small-desc">
+						I am a front-end developer and a designer passionate
+						about web development and the world of technology.
+						Currently studying computer science and doing web design
+						on the side as a hobby.
+					</h4>
+				</div>
+				<img
+					src="./Orange Photo.png"
+					alt="orange-photo"
+					id="orange-photo"
+				/>
+				<svg
+					width="175"
+					height="181"
+					viewBox="0 0 175 181"
+					fill="none"
+					xmlns="http://www.w3.org/2000/svg"
+					id="purple-pentagon"
+				>
+					<path
+						d="M52.5767 10.7443C58.9116 1.94845 70.1931 -1.76289 80.5128 1.55398L156.953 26.1226C167.257 29.4345 174.26 39.001 174.303 49.8243L174.621 130.194C174.664 141.028 167.725 150.656 157.434 154.042L81.2107 179.117C70.9198 182.503 59.6195 178.875 53.2223 170.132L5.76312 105.27C-0.628125 96.5348 -0.672661 84.6792 5.65277 75.8965L52.5767 10.7443Z"
+						fill="#7C72DC"
+					/>
+				</svg>
+			</div>
+			<div class="about-me" id="about-me">
+				<img src="./Purple Photo.png" alt="purple-photo" />
+				<div class="about-me-text">
+					<div class="about-me-title">
+						<h2>About Me</h2>
+					</div>
+					<h4>
+						My name is Timothy Dobras I'm 18 years old and currently studying computer science at the University of Thessaly. I've had web development as a hobby for the past 2 years working actively on improving, creating new projects and developing new skills.
 					</h4>
 				</div>
 			</div>
-			<div class="boring-part">
-				<svg
-					class="blob-pink"
-					viewBox="0 0 500 500"
-					xmlns="http://www.w3.org/2000/svg"
-					xmlns:xlink="http://www.w3.org/1999/xlink"
-					width="100%"
-					id="blobSvg"
-				>
-					<path
-						id="blob"
-						d="M449.5,326.5Q403,403,326.5,429Q250,455,177,425.5Q104,396,93.5,323Q83,250,84,167.5Q85,85,167.5,82.5Q250,80,309.5,105.5Q369,131,432.5,190.5Q496,250,449.5,326.5Z"
-						fill="#f18db1"
-					></path>
-				</svg>
-				<div class="boring-part-text">
-					<h2>The boring part.</h2>
-					<h4 class="part-desc">
-						I also love bringing my design to life, creating dynamic
-						websites for multiple devices with organized code (as
-						much as possible) and no bugs (hopefully).
-					</h4>
+			<div class="my-skills" id="my-skills">
+				<h2 id= "skills">My Skills</h2>
+				<svg width="319" height="345" viewBox="0 0 319 345" fill="none" xmlns="http://www.w3.org/2000/svg" id="triangle-purple">
+<path d="M60.071 331.616L288.461 226.044C312.687 214.846 315.968 181.743 294.413 166.006L91.1976 17.6456C69.3335 1.68342 38.4015 15.5222 35.7308 42.4609L10.5563 296.393C7.88559 323.332 35.4984 342.975 60.071 331.616Z" stroke="#7C72DC" stroke-width="20"/>
+</svg>
+<svg width="286" height="287" viewBox="0 0 286 287" fill="none" xmlns="http://www.w3.org/2000/svg"id="orange-hexagon">
+<path d="M223.853 38.8397L126.302 12.1634C114.24 8.86507 101.336 12.252 92.4483 21.0483L20.5706 92.1916C11.6834 100.988 8.16415 113.857 11.3384 125.952L37.0115 223.772C40.1858 235.866 49.5713 245.349 61.6328 248.647L159.184 275.324C171.245 278.622 184.15 275.235 193.037 266.439L264.915 195.295C273.802 186.499 277.321 173.629 274.147 161.535L248.474 63.7152C245.3 51.6205 235.914 42.138 223.853 38.8397Z" stroke="#F0B05D" stroke-width="20"/>
+</svg>
+				<div class="cards">
+					<div class="card">
+						<div class="design">
+							<h2>Design</h2>
+						</div>
+						<h4>
+								I design all my websites myself using Figma, Photoshop and illustrator. For me this is the more enjoyable process of web development and I let my imagination go wild with colours shapes and different styles, as you can see from this portfolio as well.
+							</h4>
+					</div>
+					<div class="card">
+						<div class="code">
+							<h2>Code</h2>
+						</div>
+						<h4>
+								Since I love bringing my designs to life i also code all the websites myself mostly using just HTML, CSS and JS but I'm currently working on my Node.js and Angular.js skills to shortly implement them in a project.
+								I'm best at front-end but I can handle things at the back-end to some degree since i have experience with programming in general as well as different languages like C and Python.
+							</h4>
+					</div>
 				</div>
 			</div>
-			<div class="end-result">
-				<h2>The end result.</h2>
-				<h4 class="part-desc">
-					In conclusion, my websites are what people want.
-					Professional looking, easy to use, reliable applications
-					with a pinch of creativity.
-				</h4>
+			<div class="contact" id="contact-me">
+				<h2 id="contact">Contact Me</h2>
+				<div class="socials">
+					<a href="https://www.instagram.com/timos_dobras/" target="_blank">
+						<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg" class="social">
+<path d="M65 16.6667H135C161.667 16.6667 183.333 38.3334 183.333 65.0001V135C183.333 147.819 178.241 160.113 169.177 169.177C160.113 178.241 147.819 183.333 135 183.333H65C38.3333 183.333 16.6667 161.667 16.6667 135V65.0001C16.6667 52.1813 21.7589 39.8875 30.8232 30.8233C39.8874 21.759 52.1812 16.6667 65 16.6667V16.6667ZM63.3333 33.3334C55.3768 33.3334 47.7462 36.4941 42.1201 42.1202C36.494 47.7463 33.3333 55.3769 33.3333 63.3334V136.667C33.3333 153.25 46.75 166.667 63.3333 166.667H136.667C144.623 166.667 152.254 163.506 157.88 157.88C163.506 152.254 166.667 144.623 166.667 136.667V63.3334C166.667 46.7501 153.25 33.3334 136.667 33.3334H63.3333ZM143.75 45.8334C146.513 45.8334 149.162 46.9309 151.116 48.8844C153.069 50.8379 154.167 53.4874 154.167 56.2501C154.167 59.0128 153.069 61.6623 151.116 63.6158C149.162 65.5693 146.513 66.6668 143.75 66.6668C140.987 66.6668 138.338 65.5693 136.384 63.6158C134.431 61.6623 133.333 59.0128 133.333 56.2501C133.333 53.4874 134.431 50.8379 136.384 48.8844C138.338 46.9309 140.987 45.8334 143.75 45.8334ZM100 58.3334C111.051 58.3334 121.649 62.7233 129.463 70.5373C137.277 78.3513 141.667 88.9494 141.667 100C141.667 111.051 137.277 121.649 129.463 129.463C121.649 137.277 111.051 141.667 100 141.667C88.9493 141.667 78.3512 137.277 70.5372 129.463C62.7232 121.649 58.3333 111.051 58.3333 100C58.3333 88.9494 62.7232 78.3513 70.5372 70.5373C78.3512 62.7233 88.9493 58.3334 100 58.3334V58.3334ZM100 75.0001C93.3696 75.0001 87.0107 77.634 82.3223 82.3224C77.6339 87.0108 75 93.3697 75 100C75 106.631 77.6339 112.989 82.3223 117.678C87.0107 122.366 93.3696 125 100 125C106.63 125 112.989 122.366 117.678 117.678C122.366 112.989 125 106.631 125 100C125 93.3697 122.366 87.0108 117.678 82.3224C112.989 77.634 106.63 75.0001 100 75.0001Z" fill="#F0B05D"/>
+</svg>
+</a>
+					<a href="https://twitter.com/gumektv" target="_blank">
+						<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg" class="social">
+<path d="M187.167 49.9999C180.75 52.9166 173.833 54.8333 166.667 55.7499C174 51.3333 179.667 44.3333 182.333 35.9166C175.417 40.0833 167.75 42.9999 159.667 44.6666C153.083 37.4999 143.833 33.3333 133.333 33.3333C113.75 33.3333 97.75 49.3333 97.75 69.0833C97.75 71.9166 98.0833 74.6666 98.6667 77.2499C69 75.7499 42.5833 61.4999 25 39.9166C21.9167 45.1666 20.1667 51.3333 20.1667 57.8333C20.1667 70.2499 26.4167 81.2499 36.0833 87.4999C30.1667 87.4999 24.6667 85.8333 19.8333 83.3333V83.5832C19.8333 100.917 32.1667 115.417 48.5 118.667C43.2561 120.102 37.7508 120.301 32.4167 119.25C34.6801 126.354 39.1128 132.57 45.0918 137.024C51.0708 141.479 58.2954 143.947 65.75 144.083C53.1136 154.087 37.45 159.494 21.3333 159.417C18.5 159.417 15.6667 159.25 12.8333 158.917C28.6667 169.083 47.5 175 67.6667 175C133.333 175 169.417 120.5 169.417 73.2499C169.417 71.6666 169.417 70.1666 169.333 68.5832C176.333 63.5832 182.333 57.2499 187.167 49.9999V49.9999Z" fill="#7268C6"/>
+</svg>
+					</a>
+					<a href="#" target="_blank">
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg" class="social">
+<path d="M166.667 66.6666L100 108.333L33.3333 66.6666V49.9999L100 91.6666L166.667 49.9999V66.6666ZM166.667 33.3333H33.3333C24.0833 33.3333 16.6667 40.7499 16.6667 49.9999V150C16.6667 154.42 18.4226 158.659 21.5482 161.785C24.6738 164.911 28.913 166.667 33.3333 166.667H166.667C171.087 166.667 175.326 164.911 178.452 161.785C181.577 158.659 183.333 154.42 183.333 150V49.9999C183.333 45.5796 181.577 41.3404 178.452 38.2148C175.326 35.0892 171.087 33.3333 166.667 33.3333V33.3333Z" fill="#F0B05D"/>
+</svg>
+					</a>
+					<a href="https://github.com/Gumeq" target="_blank">
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg" class="social">
+<path d="M100 16.6667C89.0565 16.6667 78.2202 18.8222 68.1097 23.0101C57.9993 27.198 48.8127 33.3363 41.0744 41.0745C25.4464 56.7025 16.6667 77.8987 16.6667 100C16.6667 136.833 40.5833 168.083 73.6667 179.167C77.8333 179.833 79.1667 177.25 79.1667 175V160.917C56.0833 165.917 51.1667 149.75 51.1667 149.75C47.3333 140.083 41.9167 137.5 41.9167 137.5C34.3333 132.333 42.5 132.5 42.5 132.5C50.8333 133.083 55.25 141.083 55.25 141.083C62.5 153.75 74.75 150 79.5 148C80.25 142.583 82.4167 138.917 84.75 136.833C66.25 134.75 46.8333 127.583 46.8333 95.8334C46.8333 86.5834 50 79.1667 55.4167 73.2501C54.5833 71.1667 51.6667 62.5001 56.25 51.2501C56.25 51.2501 63.25 49.0001 79.1667 59.7501C85.75 57.9167 92.9167 57.0001 100 57.0001C107.083 57.0001 114.25 57.9167 120.833 59.7501C136.75 49.0001 143.75 51.2501 143.75 51.2501C148.333 62.5001 145.417 71.1667 144.583 73.2501C150 79.1667 153.167 86.5834 153.167 95.8334C153.167 127.667 133.667 134.667 115.083 136.75C118.083 139.333 120.833 144.417 120.833 152.167V175C120.833 177.25 122.167 179.917 126.417 179.167C159.5 168 183.333 136.833 183.333 100C183.333 89.0566 181.178 78.2203 176.99 68.1098C172.802 57.9993 166.664 48.8127 158.926 41.0745C151.187 33.3363 142.001 27.198 131.89 23.0101C121.78 18.8222 110.944 16.6667 100 16.6667V16.6667Z" fill="#7C72DC"/>
+</svg>
+					</a>
+					<a href="#" target="_blank">
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg" class=social>
+<path d="M55.1667 89.9167C67.1667 113.5 86.5 132.833 110.083 144.833L128.417 126.5C130.75 124.167 134 123.5 136.917 124.417C146.25 127.5 156.25 129.167 166.667 129.167C168.877 129.167 170.996 130.045 172.559 131.607C174.122 133.17 175 135.29 175 137.5V166.667C175 168.877 174.122 170.996 172.559 172.559C170.996 174.122 168.877 175 166.667 175C129.094 175 93.0609 160.074 66.4932 133.507C39.9256 106.939 25 70.9057 25 33.3333C25 31.1232 25.878 29.0036 27.4408 27.4408C29.0036 25.878 31.1232 25 33.3333 25H62.5C64.7101 25 66.8298 25.878 68.3926 27.4408C69.9554 29.0036 70.8333 31.1232 70.8333 33.3333C70.8333 43.75 72.5 53.75 75.5833 63.0833C76.5 66 75.8333 69.25 73.5 71.5833L55.1667 89.9167Z" fill="#F0B05D"/>
+</svg>
+					</a>
+</div>
 			</div>
+			<footer><p>© 2022 Timothy Dobras. All rights reserved.</p></footer>
 		</div>
 	</body>
 </html>
