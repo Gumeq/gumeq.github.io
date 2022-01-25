@@ -191,6 +191,7 @@ body {
 	#skills {
 		padding-top: 10px;
 		text-align: center;
+		z-index: 1;
 	}
 	.my-skills {
 		background: var(--black-higher);
@@ -199,6 +200,7 @@ body {
 		position: relative;
 		width: 90%;
 		margin: 0 auto 20vh auto;
+		z-index: 1;
 	}
 	.card {
 		margin: 3vw;
@@ -245,6 +247,7 @@ body {
 		right: -22vw;
 		height: 200px;
 		width: 200px;
+		z-index: 0;
 	}
 	#orange-hexagon {
 		position: absolute;
@@ -431,6 +434,7 @@ body {
 	#skills {
 		padding-top: 10px;
 		text-align: center;
+		z-index: 1;
 	}
 	.my-skills {
 		background: var(--black-higher);
@@ -482,9 +486,10 @@ body {
 	#triangle-purple {
 		position: absolute;
 		top: -6vh;
-		right: -10vw;
+		right: -12vw;
 		height: 200px;
 		width: 200px;
+		z-index: 0;
 	}
 	#orange-hexagon {
 		position: absolute;
@@ -592,8 +597,8 @@ body {
 	#yellow-triangle {
 		position: absolute;
 		z-index: -1;
-		left: -10%;
-		top: 50%;
+		left: -70px;
+		bottom: -70px;
 	}
 
 	h3 {
@@ -629,8 +634,8 @@ body {
 	}
 	#purple-pentagon {
 		position: absolute;
-		bottom: -2vh;
-		right: 8vw;
+		bottom: -30px;
+		right: -30px;
 		z-index: -1;
 	}
 	.about-me {
@@ -712,13 +717,13 @@ body {
 	}
 	#triangle-purple {
 		position: absolute;
-		top: -10vh;
-		right: -10vw;
+		top: -50px;
+		right: -100px;
 	}
 	#orange-hexagon {
 		position: absolute;
-		bottom: -10vh;
-		left: -10vw;
+		bottom: -70px;
+		left: -70px;
 	}
 	.contact {
 		background: var(--black-higher);
