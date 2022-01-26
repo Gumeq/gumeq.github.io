@@ -17,6 +17,25 @@
 	--purple-accent: #7c72dc;
 	--orange-accent: #f0b05d;
 }
+.darkMode {
+	--background-color: white;
+	--navbar-black: #eeeeee;
+	--black-higher: linear-gradient(
+			0deg,
+			rgba(0, 0, 0, 0.15),
+			rgba(0, 0, 0, 0.15)
+		),
+		#ffffff;
+	--black-even-higher: linear-gradient(
+			0deg,
+			rgba(0, 0, 0, 0.2),
+			rgba(0, 0, 0, 0.2)
+		),
+		#ffffff;
+	--text-color: #121212;
+	--purple-accent: #5343ea;
+	--orange-accent: #ec9d36;
+}
 html {
 	scroll-behavior: smooth;
 }
@@ -25,7 +44,7 @@ body {
 	font-family: "Montserrat", sans-serif;
 	margin: 0;
 	padding: 0;
-	color: white;
+	color: var(--text-color);
 }
 html,
 body {
@@ -61,11 +80,11 @@ body {
 }
 .purple-title {
 	margin-top: 5vh;
-	background: #7c72dc;
+	background: var(--purple-accent);
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 	border-radius: 25px;
 	position: relative;
-	color: var(--navbar-black);
+	color: var(--background-color);
 }
 .main-title {
 	position: absolute;
@@ -84,10 +103,13 @@ h1 {
 }
 .dark-mode-switch {
 	position: relative;
+	cursor: pointer;
 }
-#active-switch {
-	position: absolute;
-	left: 0;
+#light-mode {
+	display: none;
+}
+#dark-mode {
+	display: none;
 }
 #yellow-triangle {
 	position: absolute;
